@@ -1,0 +1,44 @@
+{
+    "empleados":[
+        {
+            "nombre" : "carlos pedro",
+            "correo" : "alirayopuches@gmail.com"
+        },
+        {
+            "nombre" : "carlos ",
+            "correo" : "carlos_1234@gmail.com"
+        }
+        ,
+        {
+            "nombre" : "pedro paulo",
+            "correo" : "pedroPaulo@gmail.com"
+        }
+        ,
+        {
+            "nombre" : "Andrea ",
+            "correo" : "Andrea123#@gmail.com"
+        }
+        ,
+        {
+            "nombre" : "mariana Vasquez",
+            "correo" : "mari@gmail.com"
+        }
+        ,
+        {
+            "nombre" : "camilo ateortuha",
+            "correo" : "camilo4123@gmail.com"
+        }
+        ,
+        {
+            "nombre" : "carlos fernando ",
+            "correo" : "carlos@gmail.com"
+        }
+        ,
+        {
+            "nombre" : "pedro carlos",
+            "correo" : "carlos13245@gmail.com"
+        }
+        
+
+    ]
+}

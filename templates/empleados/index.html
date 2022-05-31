@@ -16,7 +16,7 @@
         <br>
         <br>
         <div class="col-auto">
-            <a class="btn btn-block btn-success" href="/create"> crear un nuevo empleado</a>
+            <a class="btn btn-block btn-success"  name="crear" href="/create"> crear un nuevo empleado</a>
         </div>
 
     </div>
@@ -44,8 +44,8 @@
                     <td>{{empleado[3]}}</td>
                     <td>{{empleado[1]}}</td>
                     <td>{{empleado[2]}}</td>
-                    <td> <a class=" btn btn-warning "href="/edit/{{empleado[0]}}">Editar</a>
-                        <a class="btn  btn-danger "href="/destroy/{{empleado[0]}}">Eliminar</a>
+                    <td> <a class=" btn btn-warning " name="editar"  href="/edit/{{empleado[0]}}">Editar</a>
+                        <a class="btn  btn-danger " name="eliminar" href="/destroy/{{empleado[0]}}">Eliminar</a>
                     </td>
 
 
