@@ -57,7 +57,6 @@ def update():
     _nombre=request.form['txtName']
     _correo=request.form['txtEmail']
     _imagen=request.files['txtImg']
-    id=request.form['txtId']
 
     sql="UPDATE  empleados SET nombre=%s, correo=%s WHERE id=%s;"
     datos=(_nombre,_correo,id)

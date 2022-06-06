@@ -2,7 +2,9 @@ from  selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time, json
 
-driver =  webdriver.Firefox(executable_path="C:/Users/Sena/Desktop/proyecto-fin/Crud_Python/prubea-selenium-crear/driveBrowsers/geckodriver.exe")
+driver =  webdriver.Firefox(executable_path="C:/Software_Empleados/prueva_selenium/driveBrowsers/geckodriver.exe")#line of code to access the browser
+
+#driver =  webdriver.Firefox(executable_path="C:/Users/Sena/Desktop/proyecto-fin/Crud_Python/prubea-selenium-crear/driveBrowsers/geckodriver.exe")
 
 with open("create-example.json") as json_file:
     data = json.load(json_file)
@@ -20,9 +22,11 @@ with open("create-example.json") as json_file:
 
         nameFrom = driver.find_element_by_name("txtName")
         nameFrom.send_keys(p["nombre"])
+        time.sleep(2)
 
         emailFrom = driver.find_element_by_name("txtEmail")
         emailFrom.send_keys(p["correo"])
+        time.sleep(2)
 
         nextBtnSubmit = driver.find_element_by_name("create")
         nextBtnSubmit.click()
